@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="title desc">
+  <title id="title">AI Engineer · 김연희</title>
+  <desc id="desc">김연희의 GitHub 프로필. 모델과 API, 사용자 화면을 연결하는 AI Engineer.</desc>
+  <defs>
+    <clipPath id="frame"><rect x="1" y="1" width="998" height="238" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="240" fill="#FCFAFF"/>
+    <rect x="736" y="0" width="264" height="240" fill="#EDE3FF"/>
+    <circle cx="963" cy="30" r="95" fill="#F4ECFF"/>
+    <circle cx="748" cy="263" r="100" fill="#E6D7FF"/>
+    <rect x="38" y="30" width="102" height="25" rx="12.5" fill="#EDE1FF"/>
+    <text x="89" y="47" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4" fill="#57606A">YH-KIKI</text>
+    <text x="38" y="132" font-family="Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="-1.5" fill="#24292F">AI ENGINEER<tspan fill="#8B5CF6">.</tspan></text>
+    <text x="41" y="171" font-family="Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="2" fill="#24292F">MODEL · BACKEND · APP</text>
+    <text x="41" y="207" font-family="Arial, sans-serif" font-size="12" letter-spacing=".7" fill="#57606A">Models · APIs · User experience</text>
+    <path d="M569 113H619M746 113H796" fill="none" stroke="#B39ADC" stroke-width="2" stroke-dasharray="4 5"/>
+    <circle cx="594" cy="113" r="4" fill="#9B72D3"/>
+    <circle cx="771" cy="113" r="4" fill="#9B72D3"/>
+    <g font-family="Arial, sans-serif">
+      <rect x="452" y="68" width="118" height="90" rx="15" fill="#EDE1FF" stroke="#DCC7F6"/>
+      <path d="M484 101l-8 8 8 8m54-16 8 8-8 8m-22-19-8 24" fill="none" stroke="#7C3AED" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="511" y="142" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" fill="#57606A">MODEL</text>
+      <rect x="629" y="68" width="118" height="90" rx="15" fill="#EFE4FF" stroke="#DCC7F6"/>
+      <rect x="674" y="91" width="29" height="10" rx="3" fill="none" stroke="#9A5CD1" stroke-width="2"/>
+      <rect x="674" y="107" width="29" height="10" rx="3" fill="none" stroke="#9A5CD1" stroke-width="2"/>
+      <circle cx="679" cy="96" r="1.4" fill="#9A5CD1"/><circle cx="679" cy="112" r="1.4" fill="#9A5CD1"/>
+      <text x="688" y="142" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" fill="#57606A">API</text>
+      <rect x="806" y="68" width="118" height="90" rx="15" fill="#E7D6FA" stroke="#D4B8EF"/>
+      <rect x="854" y="87" width="23" height="35" rx="5" fill="none" stroke="#7B3EB3" stroke-width="2"/>
+      <path d="M861 115h9" stroke="#7B3EB3" stroke-width="2" stroke-linecap="round"/>
+      <text x="865" y="142" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" fill="#57606A">APP</text>
+      <text x="511" y="185" text-anchor="middle" font-size="11" fill="#57606A">Evaluate</text>
+      <text x="688" y="185" text-anchor="middle" font-size="11" fill="#57606A">Connect</text>
+      <text x="865" y="185" text-anchor="middle" font-size="11" fill="#57606A">Verify</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="998" height="238" rx="20" fill="none" stroke="#E6D9F6"/>
+</svg>

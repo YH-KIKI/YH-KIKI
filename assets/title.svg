@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" role="img" aria-labelledby="title desc">
+  <title id="title">김연희 · AI Engineer</title>
+  <desc id="desc">서비스 운영 경험을 바탕으로 AI 기능을 구현하고 검증합니다. 모델과 데이터를 비교하고, API와 사용자 화면까지 연결합니다.</desc>
+  <text x="500" y="45" text-anchor="middle" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="42" font-weight="700" fill="#7C3AED">김연희 · AI Engineer</text>
+  <text x="500" y="104" text-anchor="middle" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="24" font-weight="700" fill="#7C3AED">서비스 운영 경험을 바탕으로, AI 기능을 구현하고 검증합니다.</text>
+  <text x="500" y="150" text-anchor="middle" font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="22" fill="#8B5AB8">모델과 데이터를 비교하고, API와 사용자 화면까지 연결합니다.</text>
+</svg>

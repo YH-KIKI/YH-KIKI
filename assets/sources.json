@@ -1,0 +1,159 @@
+[
+  {
+    "file": "assets/badges/aws.svg",
+    "url": "https://img.shields.io/badge/AWS%20EC2-ED9A27?style=for-the-badge",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/celery.svg",
+    "url": "https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/compose.svg",
+    "url": "https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/docker.svg",
+    "url": "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/embedding.svg",
+    "url": "https://img.shields.io/badge/Embedding-907CC2?style=for-the-badge",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/fastapi.svg",
+    "url": "https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/gemini.svg",
+    "url": "https://img.shields.io/badge/Gemini%20API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/git.svg",
+    "url": "https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/github.svg",
+    "url": "https://img.shields.io/badge/GitHub-24292F?style=for-the-badge&logo=github&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/java.svg",
+    "url": "https://img.shields.io/badge/Java-437291?style=for-the-badge&logo=openjdk&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/javascript.svg",
+    "url": "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=222222",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/kotlin.svg",
+    "url": "https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/mybatis.svg",
+    "url": "https://img.shields.io/badge/MyBatis-43434A?style=for-the-badge",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/mysql.svg",
+    "url": "https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/nextjs.svg",
+    "url": "https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/nginx.svg",
+    "url": "https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/pgvector.svg",
+    "url": "https://img.shields.io/badge/pgvector-5F7D9C?style=for-the-badge&logo=postgresql&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/postgresql.svg",
+    "url": "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/prompt.svg",
+    "url": "https://img.shields.io/badge/Prompt%20Engineering-6F5B95?style=for-the-badge",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/python.svg",
+    "url": "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/pytorch.svg",
+    "url": "https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/rag.svg",
+    "url": "https://img.shields.io/badge/RAG-8270B5?style=for-the-badge",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/react.svg",
+    "url": "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/redis.svg",
+    "url": "https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/scikit-learn.svg",
+    "url": "https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/springboot.svg",
+    "url": "https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/transformers.svg",
+    "url": "https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=222222",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/typescript.svg",
+    "url": "https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/badges/workmanager.svg",
+    "url": "https://img.shields.io/badge/WorkManager-4B9472?style=for-the-badge",
+    "local_adjustment": "Original badge colors restored; text contrast retained"
+  },
+  {
+    "file": "assets/stats/most-commit-language.svg",
+    "url": "https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=YH-KIKI&theme=default&title_color=8270B5&text_color=4B4657&bg_color=FFFDF9&border_color=E9E1F0&icon_color=8270B5&chart_color=9B87C4"
+  },
+  {
+    "file": "assets/stats/profile-details.svg",
+    "url": "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YH-KIKI&theme=default&title_color=8270B5&text_color=4B4657&bg_color=FFFDF9&border_color=E9E1F0&icon_color=8270B5&chart_color=9B87C4"
+  },
+  {
+    "file": "assets/stats/stats.svg",
+    "url": "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YH-KIKI&theme=default&title_color=8270B5&text_color=4B4657&bg_color=FFFDF9&border_color=E9E1F0&icon_color=8270B5&chart_color=9B87C4"
+  }
+]
