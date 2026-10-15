@@ -28,8 +28,8 @@
   <img src="./assets/stats/profile-details.svg" width="700" alt="YH-KIKI의 GitHub 프로필과 최근 1년 기여 활동" />
 </p>
 <p align="center">
-  <img src="./assets/stats/most-commit-language.svg" width="340" alt="YH-KIKI의 커밋 기준 사용 언어 분포" />
-  <img src="./assets/stats/language-percentages.svg" width="340" alt="같은 커밋 기준 언어 분포의 언어별 백분율" />
+  <img src="./assets/stats/most-commit-language.svg?v=2" width="340" alt="YH-KIKI의 커밋 기준 사용 언어 분포" />
+  <img src="./assets/stats/language-percentages.svg?v=2" width="340" alt="같은 커밋 기준 언어 분포의 언어별 백분율" />
 </p>
 
 <sub>Jupyter Notebook을 제외한 공개 활동을 바탕으로 언어 분포를 표시합니다. 백분율은 차트에 표시된 언어 기준이며, 기술 숙련도를 뜻하지 않습니다.</sub>
@@ -216,7 +216,7 @@ API 명세 · 역할 분담 · 일정 조율 · 재현 조건과 검증 결과 �
 
 ## 🎓 Education
 
-| 기간 | 기관 | 과정 · 전공 |
+| 기간 | 기관 | 과정 |
 | --- | --- | --- |
 | 2026.07–2026.09 | 하이미디어 아카데미 | AI 융합 심화과정 |
 | 2025.11–2026.06 | 패스트캠퍼스 구로학원 | Java 풀스택 AI 융합 웹개발자 과정 |
