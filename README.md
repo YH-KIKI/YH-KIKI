@@ -9,7 +9,7 @@
   </picture>
 </h1>
 
-[About](#user-content--about-me) · [GitHub](#user-content--github-statistics) · [Skills](#user-content--tech-stack) · [Projects](#user-content--selected-projects)
+[About](#user-content--about-me) · [GitHub](#user-content--github-statistics) · [Skills](#user-content--tech-stack) · [Projects](#user-content--selected-projects) · [Experience](#user-content--experience) · [Education](#user-content--education)
 
 </div>
 
@@ -118,7 +118,7 @@ API 명세 · 역할 분담 · 일정 조율 · 재현 조건과 검증 결과 �
 - 모델 조합 **5종 비교** 후 SSDLite + RTMPose-m 선정, 분석을 **Celery·Redis 워커**로 분리
 - WorkManager로 **분석 요청 → 완료 알림 → 결과 카드** 연결, 공동 돌봄·권한별 동작 구현
 
-[Backend · AI ↗](https://github.com/SAJOYO/DAENGS_dev) · [Android ↗](https://github.com/SAJOYO/DAENGS_APP)
+[팀 SAJOYO ↗](https://github.com/SAJOYO) · [DAENGS_dev ↗](https://github.com/SAJOYO/DAENGS_dev) · [DAENGS_APP ↗](https://github.com/SAJOYO/DAENGS_APP)
 
 <details>
 <summary><b>담당 범위와 문제 해결 더 보기</b></summary>
@@ -141,7 +141,7 @@ API 명세 · 역할 분담 · 일정 조율 · 재현 조건과 검증 결과 �
 - 대화 데이터를 약 **100건 → 1,000건**으로 확장하고, 같은 답변에 다른 맥락을 짝짓는 구조로 재설계
 - `pair_id` 기준 학습·검증 분리, **history 교체·response-only 실험**으로 문맥 의존성 점검
 
-[Repository ↗](https://github.com/Bomb-pod/career-jikimi)
+[career-jikimi ↗](https://github.com/Bomb-pod/career-jikimi)
 
 <details>
 <summary><b>데이터 설계와 평가 더 보기</b></summary>
@@ -161,7 +161,7 @@ API 명세 · 역할 분담 · 일정 조율 · 재현 조건과 검증 결과 �
 - **DB가 후보를 선정하고 LLM이 설명을 생성**하도록 역할 분리, AI 호출·파싱 실패 시 대체 응답 처리
 - 냉장고 추천 UI·API, 식단 기록·수정, 음식·식단·레시피 즐겨찾기 구현
 
-[Repository ↗](https://github.com/YH-KIKI/YummyPlanet)
+[YummyPlanet ↗](https://github.com/YH-KIKI/YummyPlanet)
 
 <details>
 <summary><b>서비스 구현과 연동 더 보기</b></summary>
@@ -181,7 +181,7 @@ API 명세 · 역할 분담 · 일정 조율 · 재현 조건과 검증 결과 �
 - 병원·약국 검색·상세·지도와 **예약·길찾기로 이어지는 흐름** 구현
 - 회원·병원·예약 관리의 화면·API·DB 연동, **운영시간 표시·예약 상태·401 처리** 보완
 
-[Backend ↗](https://github.com/odorable-code/barodocq-backend) · [Frontend ↗](https://github.com/odorable-code/barodocq-frontend)
+[barodocq-backend ↗](https://github.com/odorable-code/barodocq-backend) · [barodocq-frontend ↗](https://github.com/odorable-code/barodocq-frontend)
 
 <details>
 <summary><b>구현 범위와 오류 대응 더 보기</b></summary>
@@ -204,7 +204,24 @@ API 명세 · 역할 분담 · 일정 조율 · 재현 조건과 검증 결과 �
 - e5·BGE-M3·Qwen3-Embedding·pplx-embed의 **유래 문서 재검색 지표와 질문 임베딩 지연** 비교
 - 청크 단위 채점을 문서 단위로 바꾸어 다시 측정하고, Next.js 데모에서 검색·응답 확인
 
-[Repository ↗](https://github.com/YH-KIKI/rag_demo)
+[rag_demo ↗](https://github.com/YH-KIKI/rag_demo)
+
+## 💼 Experience
+
+| 기간 | 회사 · 직급 | 주요 경험 |
+| --- | --- | --- |
+| 2021.11–2025.01 | **티에이치케이컴퍼니 · 대리**<br>플랫폼운영사업부 플랫폼팀 / 커머스팀 | 플랫폼 운영·VOC 분석, 신규 서비스 QA 및 개선 협업<br>오류 재현 조건 정리, 화면·운영 데이터 검증 |
+| 2021.06–2021.11 | **지엔텍 · 사원**<br>영업/기획팀 | 온라인·오프라인 주문·출고·재고·정산 운영<br>고객 문의·A/S 처리 진행 관리 |
+| 2018.01–2020.07 | **흥진에이티 · 사원**<br>기술영업부 | B2B 수주·견적·출고·재고 관리와 납기·일정 조율<br>ERP 도입·업무 적용 및 사내 사용자 교육 |
+
+## 🎓 Education
+
+| 기간 | 기관 | 과정 · 전공 |
+| --- | --- | --- |
+| 2026.07–2026.09 | 하이미디어 아카데미 | AI 융합 심화과정 |
+| 2025.11–2026.06 | 패스트캠퍼스 구로학원 | Java 풀스택 AI 융합 웹개발자 과정 |
+| 2015.02–2017.02 | 한국방송통신대학교 | 일본학과 · 졸업 |
+| 2009.02–2012.02 | 연성대학교 | 푸드스타일링과 · 졸업 |
 
 ## ☘ How I Work
 
