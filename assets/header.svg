@@ -11,7 +11,7 @@
     <circle cx="748" cy="263" r="100" fill="#E6D7FF"/>
     <rect x="38" y="30" width="102" height="25" rx="12.5" fill="#EDE1FF"/>
     <text x="89" y="47" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4" fill="#57606A">YH-KIKI</text>
-    <text x="38" y="132" font-family="Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="-1.5" fill="#24292F">AI ENGINEER<tspan fill="#8B5CF6">.</tspan></text>
+    <text x="38" y="132" font-family="Arial, sans-serif" font-size="46" font-weight="800" letter-spacing="-1.5" fill="#432B5C">AI ENGINEER<tspan fill="#432B5C">.</tspan></text>
     <text x="41" y="171" font-family="Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="2" fill="#24292F">MODEL · BACKEND · APP</text>
     <text x="41" y="207" font-family="Arial, sans-serif" font-size="12" letter-spacing=".7" fill="#57606A">Models · APIs · User experience</text>
     <path d="M569 113H619M746 113H796" fill="none" stroke="#B39ADC" stroke-width="2" stroke-dasharray="4 5"/>
