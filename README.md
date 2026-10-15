@@ -9,7 +9,7 @@
   </picture>
 </h1>
 
-[About](#-about-me) · [GitHub](#-github-statistics) · [Skills](#-tech-stack) · [Projects](#-selected-projects)
+[About](#user-content--about-me) · [GitHub](#user-content--github-statistics) · [Skills](#user-content--tech-stack) · [Projects](#user-content--selected-projects)
 
 </div>
 
