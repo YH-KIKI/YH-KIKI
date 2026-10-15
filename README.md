@@ -15,12 +15,12 @@
 
 ## 🌿 About Me
 
-플랫폼 운영과 QA에서 사용자 요구를 정리하고, 오류를 재현하며, 수정 결과를 확인해 왔습니다.  
-이 경험을 바탕으로 AI 모델·데이터 검증과 백엔드·앱 연동을 함께 다룹니다.
+사용자 흐름에 맞춰 AI 기능을 백엔드·API·앱에 연결하는 **AI 서비스 개발자**입니다.  
+서비스 운영 경험을 바탕으로 요구사항과 기능 우선순위를 정리하고, 예외 처리와 사용성을 함께 살핍니다.
 
-- **Model & Data** · 보행 모델 비교, 대화 맥락 분류 데이터셋 설계, RAG 검색 평가
-- **Service Integration** · 비동기 분석 처리, API 응답 계약, 데이터 정합성과 예외 처리
-- **Teamwork** · 요구사항·API 명세 정리, 팀 프로젝트 리딩, 사용자 흐름 검증
+- **Service Integration** · AI 응답과 API·데이터·화면 연결
+- **User Experience** · 비동기 처리·완료 알림·결과 복귀·오류 안내 구현
+- **Collaboration** · 요구사항 정리, API 명세 작성, 역할·일정 조율
 
 ## 📊 GitHub Statistics
 
@@ -39,22 +39,25 @@
 ### AI · ML · LLM
 
 <p>
-  <img src="./assets/badges/python.svg" alt="Python" />
   <img src="./assets/badges/pytorch.svg" alt="PyTorch" />
   <img src="./assets/badges/transformers.svg" alt="Transformers" />
   <img src="./assets/badges/scikit-learn.svg" alt="scikit-learn" />
   <br />
   <img src="./assets/badges/gemini.svg" alt="Gemini API" />
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph" />
   <img src="./assets/badges/prompt.svg" alt="Prompt Engineering" />
   <img src="./assets/badges/rag.svg" alt="RAG" />
   <img src="./assets/badges/embedding.svg" alt="Embedding" />
 </p>
 
-모델 비교 · 데이터셋 설계 · Fine-tuning · 문맥 의존성 점검 · 검색 평가
+LLM API 연동 · LangGraph Sub-agent 구현·연동 · 모델 비교·선정
+
+<sub>프로젝트 적용: LLM API·LangGraph·PyTorch·Transformers / 개인 학습·실습: RAG·임베딩 검색·평가</sub>
 
 ### Backend
 
 <p>
+  <img src="./assets/badges/python.svg" alt="Python" />
   <img src="./assets/badges/fastapi.svg" alt="FastAPI" />
   <img src="./assets/badges/springboot.svg" alt="Spring Boot" />
   <img src="./assets/badges/java.svg" alt="Java" />
@@ -63,7 +66,7 @@
   <img src="./assets/badges/redis.svg" alt="Redis" />
 </p>
 
-REST API · 비동기 분석 워커 · 상태 전이 · AI 응답 처리
+Python·Java API · 비동기 분석 처리 · 응답 스키마·예외 처리
 
 ### Data · Infra
 
@@ -76,7 +79,7 @@ REST API · 비동기 분석 워커 · 상태 전이 · AI 응답 처리
   <img src="./assets/badges/aws.svg" alt="AWS EC2" />
 </p>
 
-벡터 검색 · 트랜잭션 · 컨테이너 간 연동 · 프록시 경로 오류 점검
+데이터·트랜잭션 처리 · pgvector 검색 실습 · Docker 서비스 연동·Nginx 오류 점검
 
 ### Web
 
@@ -87,7 +90,7 @@ REST API · 비동기 분석 워커 · 상태 전이 · AI 응답 처리
   <img src="./assets/badges/typescript.svg" alt="TypeScript" />
 </p>
 
-사용자·관리자 화면 · API 연동 · 검색 결과와 기록 흐름 구현
+React 화면·API 연동 · Next.js·TypeScript 데모·점검 화면 구현
 
 ### Android
 
@@ -106,30 +109,32 @@ REST API · 비동기 분석 워커 · 상태 전이 · AI 응답 처리
   <img src="./assets/badges/github.svg" alt="GitHub" />
 </p>
 
-API 명세 · 역할 분담 · 일정 조율 · 재현 조건과 검증 결과 공유
+요구사항·기능 우선순위 · API 명세 · 역할·일정 조율 · 검증 결과 공유
 
 ## 🚀 Selected Projects
 
 ### 🐾 댕스 DAENGS
 
 **반려견 보행 기록과 공동 돌봄 Android 서비스**  
-`2026.08.05 ~ 2026.09.18` · `5인 팀` · 보행 모델 비교·선정 / FastAPI / Android / 분석 워커 전환
+`2026.08.05 ~ 2026.09.18` · `5인 팀` · LangGraph Sub-agent / FastAPI / Android / 보행 분석 연동
 
-- 모델 조합 **5종 비교** 후 SSDLite + RTMPose-m 선정, 분석을 **Celery·Redis 워커**로 분리
-- WorkManager로 **분석 요청 → 완료 알림 → 결과 카드** 연결, 공동 돌봄·권한별 동작 구현
+- 기존 LangGraph 구조에 **보행 비교 질의응답 Sub-agent**를 구현·연동하고, 비교 결과 기반 LLM 해설·응답 제어·예외 처리 구성
+- 모델 조합 5종 비교 후 **SSDLite + RTMPose-m**을 선정·개선하고, 분석을 **Celery·Redis 워커**로 분리
+- FastAPI·Android를 연결해 **분석 요청 → 완료 알림 → 결과 복귀** 구현
+- 공동 돌봄·초대·수락과 **역할별 권한**을 앱·API에 반영
 
 [팀 SAJOYO ↗](https://github.com/SAJOYO) · [DAENGS_dev ↗](https://github.com/SAJOYO/DAENGS_dev) · [DAENGS_APP ↗](https://github.com/SAJOYO/DAENGS_APP)
 
 <details>
 <summary><b>담당 범위와 문제 해결 더 보기</b></summary>
 
-- 후면 검출·뒷발 관절 정확도·처리 시간을 기준으로 모델 조합 비교
-- 태스크 간 DB 엔진·이벤트 루프 충돌 수정, 분석 결과와 상태를 DB 기록에 연결
-- 보호자 초대·공동 돌봄 구현, 서버가 반환한 권한값을 앱 표시와 동작에 적용
-- 직접 호출과 프록시 호출을 비교해 업로드 413 오류의 외부 Nginx 제한 구간 특정
-- 동일 대표 영상 약 13초·5fps에서 DLC 경유 대비 직접 호출의 포즈 처리 시간 **30초 → 15초**, 유효 프레임 **69/69 유지**
+메인 오케스트레이터는 팀원이 설계했으며, 기존 구조에 보행 비교 Sub-agent와 앱의 후속 질문 흐름을 연결했습니다.
 
-<sub>처리 시간은 해당 영상의 경로 비교 결과이며, 전체 영상의 처리 시간이나 진단 정확도를 의미하지 않습니다. 앱의 권한 반영을 담당했고 서버 측 권한 검증은 서버 팀의 담당 범위였습니다.</sub>
+- 비교 결과를 LLM 입력으로 구성하고, JSON 출력 검증·응답 제어·비교 불가 및 실패 상황 처리
+- 직접 호출·프록시 호출을 대조해 **영상 업로드 HTTP 413**의 Nginx 제한 구간을 특정하고 업로드 설정 보완
+- 서버의 관절 객체 응답에 맞춰 앱 파서를 수정해 **보행 비교 응답 파싱 오류** 해결
+
+[Sub-agent 구현 커밋 ↗](https://github.com/SAJOYO/DAENGS_dev/commit/068406a84587301ba5420818b3c193d40a9b83a9)
 
 </details>
 
@@ -146,31 +151,27 @@ API 명세 · 역할 분담 · 일정 조율 · 재현 조건과 검증 결과 �
 <details>
 <summary><b>서비스 구현과 연동 더 보기</b></summary>
 
-- React → Spring Boot → FastAPI의 요청값·경로·응답 스키마를 대조해 연동 오류 수정
-- 식단 저장과 일일 칼로리 갱신을 트랜잭션으로 처리
-- 추천 JSON 응답의 형식·길이·태그 수를 프롬프트로 지시하고 파싱·기본값 처리
-- REST API 명세·역할·일정을 정리하고 Docker 환경에서 서비스 간 연동과 화면 반영 확인
+- React → Spring Boot → FastAPI의 요청·응답 스키마를 맞추고, 프롬프트·JSON 파싱·기본값 처리 구현
+- 식단 저장과 일일 칼로리 갱신을 트랜잭션으로 처리하고, Docker 환경에서 서비스 간 연동·화면 반영 확인
 
 </details>
 
 ### 🏥 바로닥큐
 
 **병원·약국 검색과 예약을 연결하는 웹 서비스**  
-`2026.02.06 ~ 2026.03.06` · `5인 팀` · 팀 리더 PM / 풀스택 / 사용자·관리자 핵심 기능 개발 주도
+`2026.02.06 ~ 2026.03.06` · `5인 팀` · 팀 리더 PM / 풀스택 / 사용자·관리자 기능 구현
 
-- 병원·약국 검색·상세·지도와 **예약·길찾기로 이어지는 흐름** 구현
-- 회원·병원·예약 관리의 화면·API·DB 연동, **운영시간 표시·예약 상태·401 처리** 보완
+- 병원·약국 **검색·상세·지도 → 예약·길찾기**로 이어지는 사용자 기능 구현
+- 회원·병원·예약 관리의 화면·API·DB를 연결하고, **운영시간 표시·예약 상태·401 처리** 보완
 
 [barodocq-backend ↗](https://github.com/odorable-code/barodocq-backend) · [barodocq-frontend ↗](https://github.com/odorable-code/barodocq-frontend)
 
 <details>
 <summary><b>구현 범위와 오류 대응 더 보기</b></summary>
 
-- Spring Boot Controller–Service–DAO, MyBatis SQL과 DTO 매핑 구현
-- 공공데이터 CSV를 MySQL에 적재하고 누락값·표시 형식 정규화
-- 목록 조회·페이지네이션, 후기·Q&A 관리 화면과 예외 처리 개선
-- 자정 경과·24시간 운영정보의 표시 조건과 관리자 경로의 401 응답 처리 보완
-- 인증된 병원 ID와 예약 상태를 기준으로 조회·승인·취소 범위 제한
+- Spring Boot·MyBatis 기반 API·SQL·DTO 매핑과 목록 조회·페이지네이션 구현
+- 공공데이터 CSV를 MySQL에 적재하고, 누락값·자정 경과·24시간 운영정보 표시 보완
+- 병원 소속·예약 상태별 처리 범위를 확인하고 관리자 경로의 인증 예외 대응
 
 </details>
 
@@ -187,9 +188,7 @@ API 명세 · 역할 분담 · 일정 조율 · 재현 조건과 검증 결과 �
 <details>
 <summary><b>데이터 설계와 평가 더 보기</b></summary>
 
-- 반복 문장·화자 구조 오류를 검수하고 적절·부적절 비율 유지
-- 동일 response에 적절·부적절 history를 붙여 문장만 외워 맞히는 평가를 줄이도록 설계
-- 한국어 사전학습 인코더 기반 Cross-Encoder 분류 모델의 학습·평가 참여
+- 반복 문장·화자 구조 오류를 검수하고, 한국어 Cross-Encoder 모델의 학습·평가에 참여
 - Precision·Recall·팝업률을 함께 검토해 전송 전 오경고 기준 논의
 
 </details>
@@ -198,12 +197,11 @@ API 명세 · 역할 분담 · 일정 조율 · 재현 조건과 검증 결과 �
 
 ### RAG Demo
 
-**댕스 프로젝트의 RAG 활용을 준비하기 위한 학습 프로젝트**  
+**댕스 프로젝트의 RAG 활용을 준비하기 위한 개인 학습·실습**  
 `2026.08.12 ~ 2026.08.18` · `1인` · RAG 파이프라인 독립 구현·학습
 
 - **문서 청킹 → 임베딩 → pgvector 적재 → 검색 → LLM 응답**까지 직접 구성
-- e5·BGE-M3·Qwen3-Embedding·pplx-embed의 **유래 문서 재검색 지표와 질문 임베딩 지연** 비교
-- 청크 단위 채점을 문서 단위로 바꾸어 다시 측정하고, Next.js 데모에서 검색·응답 확인
+- 임베딩 모델 4종의 문서 재검색 지표·질문 임베딩 지연을 비교하고, Next.js 데모로 검색·응답 흐름 확인
 
 [rag_demo ↗](https://github.com/YH-KIKI/rag_demo)
 
