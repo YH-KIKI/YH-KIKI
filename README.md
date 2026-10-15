@@ -1,11 +1,11 @@
-<img src="https://raw.githubusercontent.com/YH-KIKI/YH-KIKI/main/assets/header.svg?v=deep-purple" width="100%" alt="AI Engineer — 모델과 API, 사용자 화면을 연결합니다" />
+<img src="https://raw.githubusercontent.com/YH-KIKI/YH-KIKI/3264512c40bcccb65f565e5c165ede574f1c0966/assets/header.svg" width="100%" alt="AI Engineer — 모델과 API, 사용자 화면을 연결합니다" />
 
 <div align="center">
 
 <h1 align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/YH-KIKI/YH-KIKI/main/assets/title-mobile.svg?v=deep-purple" />
-    <img src="https://raw.githubusercontent.com/YH-KIKI/YH-KIKI/main/assets/title.svg?v=deep-purple" width="700" alt="김연희 · AI Engineer. 서비스 운영 경험을 바탕으로 AI 기능을 구현하고 검증합니다. 모델과 데이터를 비교하고, API와 사용자 화면까지 연결합니다." />
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/YH-KIKI/YH-KIKI/3264512c40bcccb65f565e5c165ede574f1c0966/assets/title-mobile.svg" />
+    <img src="https://raw.githubusercontent.com/YH-KIKI/YH-KIKI/3264512c40bcccb65f565e5c165ede574f1c0966/assets/title.svg" width="700" alt="김연희 · AI Engineer. 서비스 운영 경험을 바탕으로 AI 기능을 구현하고 검증합니다. 모델과 데이터를 비교하고, API와 사용자 화면까지 연결합니다." />
   </picture>
 </h1>
 
