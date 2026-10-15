@@ -32,7 +32,7 @@
   <img src="https://raw.githubusercontent.com/YH-KIKI/YH-KIKI/main/assets/stats/language-percentages.svg?v=2" width="340" alt="같은 커밋 기준 언어 분포의 언어별 백분율" />
 </p>
 
-<sub>Jupyter Notebook을 제외한 공개 활동을 바탕으로 언어 분포를 표시합니다. 백분율은 차트에 표시된 언어 기준이며, 기술 숙련도를 뜻하지 않습니다.</sub>
+<sub>백분율은 차트에 표시된 언어 기준이며, 기술 숙련도를 뜻하지 않습니다.</sub>
 
 ## 🛠 Tech Stack
 
