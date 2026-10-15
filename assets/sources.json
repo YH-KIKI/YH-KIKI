@@ -153,7 +153,9 @@
     "url": "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YH-KIKI&theme=default&title_color=8270B5&text_color=4B4657&bg_color=FFFDF9&border_color=E9E1F0&icon_color=8270B5&chart_color=9B87C4"
   },
   {
-    "file": "assets/stats/stats.svg",
-    "url": "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YH-KIKI&theme=default&title_color=8270B5&text_color=4B4657&bg_color=FFFDF9&border_color=E9E1F0&icon_color=8270B5&chart_color=9B87C4"
+    "file": "assets/stats/language-percentages.svg",
+    "derived_from": "assets/stats/most-commit-language.svg",
+    "method": "Normalize displayed donut arc angles, round to tenths with a 100.0% total",
+    "basis": "Same displayed languages as the commit-based donut; not language byte share or proficiency"
   }
 ]

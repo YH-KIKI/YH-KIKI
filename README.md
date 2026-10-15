@@ -28,11 +28,11 @@
   <img src="./assets/stats/profile-details.svg" width="700" alt="YH-KIKI의 GitHub 프로필과 최근 1년 기여 활동" />
 </p>
 <p align="center">
-  <img src="./assets/stats/stats.svg" width="340" alt="YH-KIKI의 커밋·PR·이슈와 기여 저장소 통계" />
   <img src="./assets/stats/most-commit-language.svg" width="340" alt="YH-KIKI의 커밋 기준 사용 언어 분포" />
+  <img src="./assets/stats/language-percentages.svg" width="340" alt="같은 커밋 기준 언어 분포의 언어별 백분율" />
 </p>
 
-<sub>공개 활동을 바탕으로 갱신합니다. 언어 분포는 집계 대상 저장소의 커밋 기준이며, 기술 숙련도를 뜻하지 않습니다.</sub>
+<sub>공개 활동을 바탕으로 갱신합니다. 백분율은 왼쪽 차트에 표시된 언어를 기준으로 계산하며, 기술 숙련도를 뜻하지 않습니다.</sub>
 
 ## 🛠 Tech Stack
 
