@@ -11,6 +11,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parent.parent
 OWNER = os.environ.get('PROFILE_OWNER', 'YH-KIKI')
 CARDS = ('profile-details', 'most-commit-language')
+EXCLUDED_LANGUAGES = ('Jupyter Notebook',)
 
 
 def language_breakdown(data):
@@ -97,7 +98,10 @@ def main():
     }
     fetched = {}
     for card in CARDS:
-        url = f'https://github-profile-summary-cards.vercel.app/api/cards/{card}?{urlencode(options)}'
+        card_options = dict(options)
+        if card == 'most-commit-language':
+            card_options['exclude'] = ','.join(name.lower() for name in EXCLUDED_LANGUAGES)
+        url = f'https://github-profile-summary-cards.vercel.app/api/cards/{card}?{urlencode(card_options)}'
         req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urlopen(req, timeout=45) as response:
             data = response.read()
@@ -111,7 +115,11 @@ def main():
             raise ValueError(f'{card}: service returned an error')
         fetched[card] = data
 
-    fetched['language-percentages'] = percentage_card(language_breakdown(fetched['most-commit-language']))
+    languages = language_breakdown(fetched['most-commit-language'])
+    excluded = {name.casefold() for name in EXCLUDED_LANGUAGES}
+    if any(item['name'].casefold() in excluded for item in languages):
+        raise ValueError('Source chart did not apply the requested language filter')
+    fetched['language-percentages'] = percentage_card(languages)
 
     directory = ROOT / 'assets' / 'stats'
     directory.mkdir(parents=True, exist_ok=True)
